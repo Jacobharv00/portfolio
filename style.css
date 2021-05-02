@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-    background: red;
     text-align: center;
     background-color: chocolate;
     cursor: grabbing;
+    color: khaki;
 }
