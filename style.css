@@ -6,36 +6,30 @@ body {
     background-position: right;
 }
 
-.name {
+.root {
     width: 450px;
     background: rgba(8, 212, 226, 0.4);
     padding: 40px;
     text-align: left;
-    margin: auto;
+    margin: left;
+    margin-bottom: 5%;
     margin-top: 5%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
 }
 
-.name-img {
+.root-img {
     border-radius: 30%;
     width: 200px;
 }
 
-.name h1 {
+.root h1 {
     font-size: 50px;
     letter-spacing: 5px;
     font-weight: 200;
-
 }
 
-.name h5 {
-    font-size: 25px;
-    letter-spacing: 4px;
-    font-weight: 200;
-}
-
-.name p {
+.root p {
     text-align: justify;
 }
 
@@ -44,19 +38,20 @@ ul {
     padding: 0;
 }
 
-.name li {
+.root li {
     display: inline-block;
     margin: 6px;
     list-style: none;
 }
 
-.name li a {
+.root li a {
     color: white;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 30px;
     transition: all ease-in-out 250ms;
 }
 
-.name li a:hover {
+.root li a:hover {
     color: rgb(24, 224, 164);
+    
 }
