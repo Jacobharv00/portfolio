@@ -4,6 +4,7 @@ body {
     background: url(palmtree.jpg) no-repeat;
     background-size: cover;
     background-position: right;
+    
 }
 
 .root {
@@ -16,21 +17,29 @@ body {
     margin-top: 5%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
+   
 }
 
-.root-img {
+.about {
+    text-align: justify;
+    
+}
+
+.img-me {
     border-radius: 30%;
     width: 200px;
 }
 
-.root h1 {
-    font-size: 50px;
+.container p {
+    font-size: 16px;
     letter-spacing: 5px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
-.root p {
+.about {
     text-align: justify;
+    font-display: bold;
+    size: 200rem;
 }
 
 ul {
@@ -38,20 +47,53 @@ ul {
     padding: 0;
 }
 
-.root li {
+ul li {
     display: inline-block;
-    margin: 6px;
+    margin: 5px;
     list-style: none;
+    margin-top: -20px;
+    align-items: center;
 }
 
-.root li a {
+ul li a {
     color: white;
     text-decoration: none;
     font-size: 30px;
     transition: all ease-in-out 250ms;
 }
 
-.root li a:hover {
+.icons a:hover {
     color: rgb(24, 224, 164);
     
 }
+h3 {
+  text-align: left;
+  font-family: monospace;
+  margin-top: 70px;
+  color: rgb(0, 8, 8);    
+}
+
+button {
+    color: rgb(238, 10, 188);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+button:hover {
+    color: rgb(14, 2, 0);
+}
+
+.projects {
+   font-size: 16px;
+   color: black;
+   font-weight: lighter;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.projects a {
+    color: black;
+    border-right: solid 1px rgb(0, 0, 0);
+}
+
