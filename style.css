@@ -1,21 +1,34 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(palmtree.jpg) no-repeat;
+    background: url(palmtree.jpg) no-repeat; 
     background-size: cover;
     background-position: right;
-    
+}
+
+.btn-toggle {
+    float:right;
+    margin-top: -1000px;
+    margin-right: 2px;
+    border-radius: 20px;
+    cursor: -webkit-grab;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    color: rgb(0, 204, 255);
 }
 
 .root {
     width: 450px;
-    background: rgba(8, 212, 226, 0.4);
+    background: rgba(0, 136, 146, 0.4);
     padding: 40px;
     text-align: left;
     margin: left;
     margin-bottom: 5%;
     margin-top: 5%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Century Gothic', sans-serif;
    
 }
@@ -73,18 +86,6 @@ h3 {
   color: rgb(0, 8, 8);    
 }
 
-button {
-    color: rgb(238, 10, 188);
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 20px;
-    transition: all ease-in-out 250ms;
-}
-
-button:hover {
-    color: rgb(14, 2, 0);
-}
-
 .projects {
    font-size: 16px;
    color: black;
@@ -92,8 +93,13 @@ button:hover {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.projects h1 {
+    margin-bottom: -1px;
+}
+
 .projects a {
     color: black;
     border-right: solid 1px rgb(0, 0, 0);
 }
+
 
