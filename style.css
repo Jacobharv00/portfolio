@@ -1,14 +1,78 @@
+.img-me {
+    border-radius: 30%;
+    width: 200px;
+}
+
+.about {
+    padding-left: 20px;
+}
+
+p {
+    overflow-wrap: break-word;
+    line-height: 1.3; 
+    padding: 20px; 
+    border-right: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 800px;
+    margin: 10px auto;
+}
+
+body.dark-theme p {
+    overflow-wrap: break-word;
+    line-height: 1.3; 
+    padding: 20px; 
+    border-right: 3px solid #8519ff;
+    border-left: 3px solid #8519ff;
+    border-top: 3px solid #8519ff;
+    border-bottom: 3px solid #8519ff;
+    width: 800px;
+    margin: 10px auto;
+}
+
+.container p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+/* Default colors */
 body {
-    margin: 0;
-    padding: 0;
-    background: url(palmtree.jpg) no-repeat; 
-    background-size: cover;
-    background-position: right;
+    color: var(--text-color);
+    background: var(--bkg-color);
+}
+/* Dark theme colors */
+body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #232B32;
+}
+/* Dark theme Anchor Color */
+body.dark-theme a {
+    color: #8519ff;
+} 
+
+body.dark-theme img {
+    filter: brightness(.8) contrast(1.2);
+}
+
+body.dark-theme .about {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #8519ff;
+}
+
+/* Styles for users who prefer dark mode */
+@media (prefers-color-scheme: dark) {
+/* Override dark mode with light mode styles if the user decides to swap */
+body.light-theme {
+    --text-color: #222;
+    --bkg-color: #fff;
+    }
 }
 
 .btn-toggle {
     float:right;
-    margin-top: -1000px;
     margin-right: 2px;
     border-radius: 20px;
     cursor: -webkit-grab;
@@ -17,42 +81,7 @@ body {
 }
 
 button:hover {
-    color: rgb(0, 204, 255);
-}
-
-.root {
-    width: 450px;
-    background: rgba(0, 136, 146, 0.4);
-    padding: 40px;
-    text-align: left;
-    margin: left;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    color: rgb(255, 255, 255);
-    font-family: 'Century Gothic', sans-serif;
-   
-}
-
-.about {
-    text-align: justify;
-    
-}
-
-.img-me {
-    border-radius: 30%;
-    width: 200px;
-}
-
-.container p {
-    font-size: 16px;
-    letter-spacing: 5px;
-    font-weight: 400;
-}
-
-.about {
-    text-align: justify;
-    font-display: bold;
-    size: 200rem;
+    color: rgb(255, 0, 0);
 }
 
 ul {
@@ -69,14 +98,14 @@ ul li {
 }
 
 ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 30px;
     transition: all ease-in-out 250ms;
 }
 
 .icons a:hover {
-    color: rgb(24, 224, 164);
+    color: rgb(255, 0, 0);
     
 }
 h3 {
@@ -84,6 +113,10 @@ h3 {
   font-family: monospace;
   margin-top: 70px;
   color: rgb(0, 8, 8);    
+}
+
+body.dark-theme h3 {
+    color: #8519ff;
 }
 
 .projects {
@@ -97,9 +130,20 @@ h3 {
     margin-bottom: -1px;
 }
 
+body.dark-theme h1 {
+    color: #8519ff;
+}
+
 .projects a {
     color: black;
     border-right: solid 1px rgb(0, 0, 0);
 }
 
+.projects a:hover {
+    color:rgb(255, 0, 0)
+}
+
+body.dark-theme a:hover {
+    color: whitesmoke;
+}
 
