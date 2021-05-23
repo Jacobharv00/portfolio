@@ -7,9 +7,15 @@
     padding-left: 20px;
 }
 
+.container p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
 p {
     overflow-wrap: break-word;
-    line-height: 1.3; 
+    line-height: 1.4; 
     padding: 20px; 
     border-right: 3px solid rgb(0, 0, 0);
     border-left: 3px solid rgb(0, 0, 0);
@@ -17,6 +23,7 @@ p {
     border-bottom: 3px solid rgb(0, 0, 0);
     width: 800px;
     margin: 10px auto;
+    display: inline-block;
 }
 
 body.dark-theme p {
@@ -28,19 +35,14 @@ body.dark-theme p {
     border-top: 3px solid #8519ff;
     border-bottom: 3px solid #8519ff;
     width: 800px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
-.container p {
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 500;
-}
 /* Default colors */
 body {
     color: var(--text-color);
     background: var(--bkg-color);
-}
+} 
 /* Dark theme colors */
 body.dark-theme {
     --text-color: #eee;
@@ -67,7 +69,7 @@ body.dark-theme .about {
 /* Override dark mode with light mode styles if the user decides to swap */
 body.light-theme {
     --text-color: #222;
-    --bkg-color: #fff;
+    --bkg-color: #eee;
     }
 }
 
@@ -87,7 +89,7 @@ button:hover {
 ul {
     margin: 0;
     padding: 0;
-}
+} 
 
 ul li {
     display: inline-block;
@@ -127,7 +129,7 @@ body.dark-theme h3 {
 }
 
 .projects h1 {
-    margin-bottom: -1px;
+    margin-bottom: 20px;
 }
 
 body.dark-theme h1 {
@@ -136,7 +138,12 @@ body.dark-theme h1 {
 
 .projects a {
     color: black;
-    border-right: solid 1px rgb(0, 0, 0);
+    border-right: solid 2px rgb(0, 0, 0);
+    border-left: solid 2px rgb(0, 0, 0);
+    border-top: solid 2px rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .projects a:hover {
@@ -146,4 +153,6 @@ body.dark-theme h1 {
 body.dark-theme a:hover {
     color: whitesmoke;
 }
+
+
 
