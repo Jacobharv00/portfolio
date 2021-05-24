@@ -1,15 +1,12 @@
 a.button {
     font-size: 200px;
-    color: rgb(1, 68, 1); 
+    color: #A0DAA9; 
     padding: 600px;
-    
+    background: url(/palmtree.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 a.button:hover {
-    color: rgb(255, 251, 0);
+    color: #F5DF4D;
     transition: ease-in-out 250ms;
-}
-
-body {
-    background: url(palmtree.jpg);
 }
