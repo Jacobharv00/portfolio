@@ -2,11 +2,14 @@ a.button {
     font-size: 200px;
     color: #A0DAA9; 
     padding: 600px;
-    background: url(/palmtree.jpg) no-repeat center center fixed;
+    background: url(/palmtree.jpg) no-repeat;
     background-size: cover;
+    opacity: 1.5;
+    
 }
 
 a.button:hover {
     color: #F5DF4D;
     transition: ease-in-out 250ms;
 }
+

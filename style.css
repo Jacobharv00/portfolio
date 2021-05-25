@@ -14,7 +14,6 @@
 }
 
 p {
-    overflow-wrap: break-word;
     line-height: 1.4; 
     padding: 20px; 
     border-right: 3px solid rgb(0, 0, 0);
