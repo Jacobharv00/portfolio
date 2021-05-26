@@ -26,9 +26,6 @@ btn.addEventListener('click', function () {
 })
 
 
-// Displaying date & time = not ready yet
-// let date = new Date()
-// document.getElementById('date-time').innerHTML = date
 
 
 
