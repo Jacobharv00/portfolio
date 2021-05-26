@@ -10,19 +10,25 @@ const currentTheme = localStorage.getItem('theme')
 }
 
 btn.addEventListener('click', function () {
+    let theme = 'dark-theme' || 'light-theme'
     if (prefersDarkScheme.matches) {
         document.body.classList.toggle('light-theme')
-        let theme = document.body.classList.contains('light-theme')
+        theme = document.body.classList.contains('light-theme')
         ? 'light'
         : 'dark'
     } else {
         document.body.classList.toggle('dark-theme')
-        let theme = document.body.classList.contains('dark-theme')
+        theme = document.body.classList.contains('dark-theme')
         ? 'dark'
         : 'light'
 }
         localStorage.setItem('theme', theme)
 })
+
+
+// Displaying date & time = not ready yet
+// let date = new Date()
+// document.getElementById('date-time').innerHTML = date
 
 
 
