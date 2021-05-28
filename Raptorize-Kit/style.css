@@ -2,14 +2,42 @@ a.button {
     font-size: 200px;
     color: #A0DAA9; 
     padding: 600px;
-    background: url(/palmtree.jpg) no-repeat;
+    background: url(/palmtree.jpg) no-repeat; 
     background-size: cover;
+    background-position: right;
     opacity: 1.5;
-    
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    height: 100px;
+    font-size: 3rem;
+    align-items: center;
 }
 
-a.button:hover {
-    color: #F5DF4D;
-    transition: ease-in-out 250ms;
+/* Still working on */
+@media screen and (max-width: 960px) {
+    a.button {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        max-width: 1300px;
+        padding: 600px;
+        font-size: 2rem;
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: auto;
+        height: 90vh;
+    }
+}
+
+/* Still working on */
+@media screen and (max-width: 480px) {
+    a.button {
+        font-size: 2rem;
+        margin-top: 3rem;
+        padding: 480px;
+        margin: 2.5rem 0;
+    }
 }
 
