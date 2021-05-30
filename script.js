@@ -25,12 +25,23 @@ btn.addEventListener('click', function () {
         localStorage.setItem('theme', theme)
 })
 
+// Tiltable 3D Element
+const box = document.querySelector('.box')
+const boxRect = box.getBoundingClientRect()
 
+box.addEventListener('mousemove', (e) => {
+    const xPosition = (e.clientX - boxRect.left) / boxRect.width
+    const yPosition = (e.clientY - boxRect.top) / boxRect.height - 0.6
+    const xOffSet = -(xPosition - 0.6)
+    const dxNorm = Math.min(Math.max(xOffSet, -0.6), 0.6)
+    box.style.transform = `perspective(1000px)
+                            rotateY(${dxNorm * 45}deg)
+                            rotateX(${yPosition * 45}deg)`
+})   
 
-
-
-
-
+box.addEventListener('mouseleave', () => {
+    box.style.transform = 'none'
+})
 
 
 
