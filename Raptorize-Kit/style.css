@@ -2,7 +2,7 @@ a.button {
     font-size: 200px;
     color: #A0DAA9; 
     padding: 600px;
-    background: url('personal/palmtree.jpg') no-repeat; 
+    background: url('/palmtree.jpg') no-repeat; 
     background-size: cover;
     background-position: right;
     opacity: 1.5;
