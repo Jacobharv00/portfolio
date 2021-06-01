@@ -1,43 +1,21 @@
 a.button {
-    font-size: 200px;
+    font-size: 2rem;
     color: #A0DAA9; 
-    padding: 600px;
-    background: url('/palmtree.jpg') no-repeat; 
-    background-size: cover;
-    background-position: right;
-    opacity: 1.5;
-    text-decoration: none;
+    margin-top: 650px;
+    margin-left: 200px;
     justify-content: center;
+    opacity: 1.5;
+    text-decoration: none; 
+    font-family: cursive;
     display: flex;
     cursor: pointer;
-    height: 100px;
-    font-size: 3rem;
-    align-items: center;
 }
 
-/* Still working on */
-@media screen and (max-width: 960px) {
-    a.button {
-        display: flex;
-        justify-content: space-between;
-        height: 100px;
-        max-width: 1300px;
-        padding: 600px;
-        font-size: 2rem;
-        margin-top: 3rem;
-        display: grid;
-        grid-template-columns: auto;
-        height: 90vh;
-    }
+html {
+    background: url(/palmtree.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-size: calc(1em + 1vw);
 }
 
-/* Still working on */
-@media screen and (max-width: 480px) {
-    a.button {
-        font-size: 2rem;
-        margin-top: 3rem;
-        padding: 480px;
-        margin: 2.5rem 0;
-    }
-}
+
 
