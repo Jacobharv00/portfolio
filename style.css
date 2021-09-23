@@ -1,16 +1,20 @@
 .img-me {
     border-radius: 30%;
-    width: 200px;
+    min-height: 30vh;
+    max-width: 15vw;
+    margin-left: 1vw;
 }
 
 .about {
-    padding-left: 20px;
+    font-size: 3rem;
+    margin-left: 3vw;
 }
 
 .container p {
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 500;
+    margin-top: -2vh;
 }
 
 p {
@@ -34,7 +38,6 @@ body.dark-theme p {
     border-top: 3px solid #8519ff;
     border-bottom: 3px solid #8519ff;
     width: 800px;
-    margin: 5px auto;
 }
 
 /* Default colors */
@@ -58,7 +61,8 @@ body.dark-theme img {
 }
 
 body.dark-theme .about {
-    font-size: 30px;
+    font-size: 3rem;
+    margin-left: 3vw;
     letter-spacing: 2px;
     font-weight: 500;
     color: #8519ff;
@@ -80,6 +84,7 @@ body.light-theme {
     cursor: -webkit-grab;
     background-color: black;
     color: white;
+    font-size: 1.5rem;
 }
 
 button:hover {
@@ -111,10 +116,10 @@ ul li a {
     
 }
 h3 {
-  text-align: left;
-  font-family: monospace;
-  margin-top: 70px;
-  color: rgb(0, 8, 8);    
+    text-align: left;
+    font-family: monospace;
+    margin-top: 70px;
+    color: rgb(0, 8, 8);    
 }
 
 body.dark-theme h3 {
@@ -122,10 +127,10 @@ body.dark-theme h3 {
 }
 
 .projects {
-   font-size: 16px;
-   color: black;
-   font-weight: lighter;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .projects h1 {
@@ -200,3 +205,15 @@ body.dark-theme a:hover {
     transform: translateZ(40px);
 }
 
+.stay-in-touch {
+    margin-left: 1vw;
+    font-size: 2rem;
+}
+
+.github-logo {
+    margin-left: 3vw;
+}
+
+a {
+    font-size: 1rem;
+}
