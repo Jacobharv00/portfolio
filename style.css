@@ -177,6 +177,8 @@ body.dark-theme a:hover {
     transition: all 180ms ease-out;
     float: right;
     cursor: pointer;
+    margin-top: -20vh;
+    margin-right: 5vw;
 }
 
 .box h1 {
