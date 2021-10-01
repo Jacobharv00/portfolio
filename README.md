@@ -11,7 +11,7 @@
 
 
 ## 💻 [Tech]
-<ul align="center">
+<ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
