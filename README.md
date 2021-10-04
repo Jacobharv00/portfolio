@@ -8,7 +8,7 @@
 <!-- ![programmer](https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif) -->
 
 <p align="center">
-  <img width="100%" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="programmer" />
+  <img width="100%" src="https://media.giphy.com/media/xFkgeu7dhfgqqxJqmj/giphy.gif" alt="cat-nerd" />
 </p>
 
 > This is my portfolio! All projects besides Movie-Lounge and Loungezilla were built before I attended Flatiron School with the intention of practicing my skills before attending the program for software engineering. New updated version using React coming soon! Browse around and check out my projects. Please reach out to me either by email or on Linkedin. I would love to hear feedback and comments about my projects.
