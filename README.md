@@ -1,11 +1,9 @@
-<h1 align="center">Welcome to portfolio 👋 🏄 </h1>
+<h1 align="center">🏄 Welcome to my portfolio 👋 </h1>
 <p>
   <a href="https://www.npmjs.com/package/portfolio" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/portfolio.svg">
   </a>
 </p>
-
-<!-- ![programmer](https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif) -->
 
 <p align="center">
   <img width="100%" src="https://media.giphy.com/media/xFkgeu7dhfgqqxJqmj/giphy.gif" alt="cat-nerd" />
@@ -13,16 +11,20 @@
 
 > This is my portfolio! All projects besides Movie-Lounge and Loungezilla were built before I attended Flatiron School with the intention of practicing my skills before attending the program for software engineering. New updated version using React coming soon! Browse around and check out my projects. Please reach out to me either by email or on Linkedin. I would love to hear feedback and comments about my projects.
 
-### 🏠 [Homepage](https://jacobharv00.github.io/portfolio/) 
+### 🏠 [Homepage](https://jacobharv00.github.io/portfolio/) 🏠 
 <p>Visit my homepage to check out my portfolio!</p>
 
-## 💻 [Tech]
+## 💻 [Tech] 💻 
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
   <li>Github Pages</li>
 </ul>
+
+<p align="center">
+  <img width="100%" src="https://media.giphy.com/media/UH9QKcraNtbxK/giphy.gif" alt="tech-lines" />
+</p>
 
 ## Usage
 
